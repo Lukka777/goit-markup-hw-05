@@ -395,6 +395,8 @@ a {
 
 .team-icon-img {
   height: 44px;
+  justify-content: center;
+  align-items: center;
   width: 44px;
 }
 
@@ -432,7 +434,7 @@ a {
   padding: 0px;
   border: 2px solid var(--customers-logo);
   width: 170px;
-  height: 120px;
+  height: 90px;
   border-radius: 4px;
   box-sizing: border-box;
   transition: fill 250ms var(--timing-function),
@@ -457,8 +459,8 @@ a {
   margin-right: 30px;
 }
 .customers-logo {
-  width: 75px;
-  height: 108px;
+  width: 70px;
+  height: 56px;
   fill: var(--customers-logo);
   border: 2px;
 }
@@ -752,4 +754,10 @@ footer {
   right: 28px;
   fill: var(--accent-color-white);
 }
-.advantage
+.portfolio-line {
+  width: auto;
+  height: 86px;
+  left: 0px;
+  top: 81px;
+  border: 1px solid #ececec;
+}
